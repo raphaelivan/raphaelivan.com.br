@@ -1,13 +1,17 @@
 require "sinatra"
+require "sinatra/base"
 
-get "/" do
-  erb :index
-end
+class Site < Sinatra::Base
 
-get "/about" do
-  erb :about
-end
+  get "/" do
+    erb :index
+  end
 
-get "/contact" do
-  erb :contact
+  get "/about" do
+    erb :about
+  end
+
+  get "/contact" do
+    erb :contact
+  end
 end
