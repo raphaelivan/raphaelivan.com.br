@@ -2580,10 +2580,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   .single-fact {
     margin-bottom: 30px;
   }
+  .portfolio-area {
+    margin-top: 20px;
+  }
+  
 }
 
 /*--------- End Facts Area -------------*/
 /*--------- Start Portfolio Area -------------*/
+
 .portfolio-area .primary-btn {
   color: #fff;
   background-color: #2a94d2;
